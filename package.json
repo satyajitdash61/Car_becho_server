@@ -5,7 +5,7 @@
   "main": "MongoConnection.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node MongoConnection.js"
+    "start": "node MongoConnection.js"
   },
   "repository": {
     "type": "git",
