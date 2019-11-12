@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const uri = "mongodb+srv://dbUser:q9twDpjE06O9oTxd@cluster0-uz0v7.mongodb.net/CarApp?retryWrites=true&w=majority";
 
 const app = express();
-const port = 8300;
+const port = process.env.PORT || 8300;
 const cors=require('cors');
 app.use(bodyparser.urlencoded({encoded:false}))
 app.use(bodyparser.json());
